@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 // create  schema
 const ItemSchema = new Schema ({
     name: {
-        type: string,
+        type: String,
         required: true
     },
     date: {
