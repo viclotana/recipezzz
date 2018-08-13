@@ -14,8 +14,9 @@ class AppNavbar extends Component {
   constructor(props){
       super(props);
 
-      
+
   }
 }
+
 
 export default AppNavbar;
