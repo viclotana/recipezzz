@@ -11,5 +11,9 @@ import {
 } from 'reactstrap';
 
 class AppNavbar extends Component {
-    
+
+}
+
+export default (AppNavbar) => {
+  
 }
