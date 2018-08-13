@@ -23,7 +23,10 @@ class RecipeList extends Component {
         const { items } = this.state;
         return (
             <Container>
-                
+                <Button
+                color ="dark"
+                >Add Recipe
+                </Button>
             </Container>
         );
     }
