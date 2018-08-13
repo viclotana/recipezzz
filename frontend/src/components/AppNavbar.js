@@ -27,7 +27,8 @@ class AppNavbar extends Component {
                <Container>
                    <NavbarBrand href="/">Recipessss</NavbarBrand>
                    <NavbarToggler onClick={this.toggle}/>
-                   <Collapse isOpen={this.state.isOpen}
+                   <Collapse isOpen={this.state.isOpen} navbar>
+                   
                </Container>
             </Navbar>
         </div>
