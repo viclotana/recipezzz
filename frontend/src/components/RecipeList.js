@@ -9,7 +9,7 @@ import { CSSTransition, TransitionGroup }
 from 'react-transition-group';
 import uuid from 'uuid';
 
-class RecipeList extends Component (){
+class RecipeList extends Component {
     state = {
         items
     }
