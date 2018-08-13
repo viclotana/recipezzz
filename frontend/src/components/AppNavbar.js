@@ -23,6 +23,9 @@ class AppNavbar extends Component {
 
     render(){
         <div>
+            <Navbar color="">
+               
+            </Navbar>
         </div>
     }
 }
