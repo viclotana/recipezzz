@@ -42,7 +42,16 @@ class RecipeList extends Component {
                   {items.map(({ id, name, style }) =>(
                       <CSSTransition key={id} timeout={500}
                       classNames="fade">
-                        <ListGroupItem>{name}</ListGroupItem>
+                        <ListGroupItem>
+                        <Button
+                          className="remove-btn"
+                          color="danger"
+                          size="sm"
+                          onClick={() => {
+                              this.setState(state =>());
+                          }}
+                          >&times; </Button>
+                        {name}</ListGroupItem>
                       </CSSTransition>
                   ))}
                   </TransitionGroup>
