@@ -13,12 +13,13 @@ import {
 class AppNavbar extends Component {
   constructor(props){
       super(props);
-
-
+      this.state = {
+          isOpen: false
+      }
   }
 }
 toggle = () => {
-    
+
 }
 
 export default AppNavbar;
