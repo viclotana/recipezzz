@@ -17,6 +17,8 @@ class AppNavbar extends Component {
 
   }
 }
-
+toggle = () => {
+    
+}
 
 export default AppNavbar;
