@@ -20,6 +20,8 @@ class AppNavbar extends Component {
           isOpen:!this.state.isOpen
       });
     }
+
+    render(){}
 }
 
 
