@@ -52,7 +52,7 @@ class RecipeList extends Component {
                                   items:state.items.filter(item => item.id != id)
                               }));
                           }}
-                          >&times; </Button>
+                           >&times; </Button>
                         {name}</ListGroupItem>
                       </CSSTransition>
                   ))}
