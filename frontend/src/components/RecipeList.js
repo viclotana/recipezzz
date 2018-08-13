@@ -27,7 +27,7 @@ class RecipeList extends Component {
                 color ="dark"
                 style={{marginBottom:'2rem'}}
                 onClick={() => {
-                    
+                    const name =prompt('enter item');
                 }}
                 >Add Recipe
                 </Button>
