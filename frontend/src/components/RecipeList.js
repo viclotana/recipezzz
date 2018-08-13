@@ -8,3 +8,9 @@ import {
 import { CSSTransition, TransitionGroup } 
 from 'react-transition-group';
 import uuid from 'uuid';
+
+class RecipeList extends Component (){
+    state = {
+        items
+    }
+}
