@@ -5,4 +5,5 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
+    NavItem
 }
