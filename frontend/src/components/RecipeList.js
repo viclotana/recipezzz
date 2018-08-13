@@ -37,6 +37,16 @@ class RecipeList extends Component {
                 }}
                 >Add Recipe
                 </Button>
+                <ListGroup>
+                  <TransitionGroup className="recipe-list">
+                  {items.map(({ id, name, style }) =>(
+                      <CSSTransition key={id} timeout={500}
+                      classNames="fade">
+                        <ListGroupItem>{name}</ListGroupItem>
+                      </CSSTransition>
+                  ))}
+                  </TransitionGroup>
+                </ListGroup>
             </Container>
         );
     }
