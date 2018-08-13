@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import AppNavbar from './components/AppNavbar';
-import
+import RecipeList from './components/RecipeList';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
