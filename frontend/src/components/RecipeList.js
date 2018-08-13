@@ -28,6 +28,11 @@ class RecipeList extends Component {
                 style={{marginBottom:'2rem'}}
                 onClick={() => {
                     const name =prompt('enter item');
+                    if (name) {
+                        this.setState(state => ({
+                            items:[...state.items, {id:uuid(), name}]
+                        }));
+                    }
                 }}
                 >Add Recipe
                 </Button>
