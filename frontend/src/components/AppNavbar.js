@@ -16,7 +16,9 @@ class AppNavbar extends Component {
     }
 
     toggle = () => {
-
+      this.setState({
+          isOpen:!this.state.isOpen
+      });
     }
 }
 
