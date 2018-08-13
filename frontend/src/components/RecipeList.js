@@ -14,7 +14,7 @@ class RecipeList extends Component {
         items: [
             { id:uuid(), name:'Abacha', style: 'buy, boil and eat'},
             { id:uuid(), name:'Oha Soup', style: 'buy, boil and eat'},
-            { id:uuid(), name:'Bread and Tea', style: 'buy, boil and eat'},
+            { id:uuid(), name:'Bread and Tea', style: 'buy, boiand eat'},
             { id:uuid(), name:'Rice and Stew', style: 'buy, boil and eat'}
         ]
     }
