@@ -10,4 +10,6 @@ import {
     Container
 } from 'reactstrap';
 
-class AppNavbar extends Component
+class AppNavbar extends Component {
+    
+}
