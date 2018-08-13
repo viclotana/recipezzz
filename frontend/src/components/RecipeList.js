@@ -44,7 +44,7 @@ class RecipeList extends Component {
                       classNames="fade">
                         <ListGroupItem>
                         <Button
-                           className="remove-btn"
+                         className="remove-btn"
                           color="danger"
                           size="sm"
                           onClick={() => {
