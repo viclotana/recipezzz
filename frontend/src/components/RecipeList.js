@@ -11,6 +11,15 @@ import uuid from 'uuid';
 
 class RecipeList extends Component {
     state = {
-        items
+        items: [
+            { id:uuid(), name:'Abacha', style: 'buy, boil and eat'},
+            { id:uuid(), name:'Oha Soup', style: 'buy, boil and eat'},
+            { id:uuid(), name:'Bread and Tea', style: 'buy, boil and eat'},
+            { id:uuid(), name:'Rice and Stew', style: 'buy, boil and eat'}
+        ]
+    }
+
+    render (){
+        const { items } = this.state;
     }
 }
