@@ -3,4 +3,5 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
+    NavbarBrand
 }
