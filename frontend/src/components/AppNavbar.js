@@ -22,7 +22,8 @@ class AppNavbar extends Component {
     }
 
     render(){
-        <div>
+        return (
+            <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
                <Container>
                    <NavbarBrand href="/">Recipessss</NavbarBrand>
@@ -39,6 +40,8 @@ class AppNavbar extends Component {
                </Container>
             </Navbar>
         </div>
+        );
+        
     }
 }
 
