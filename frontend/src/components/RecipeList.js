@@ -26,6 +26,9 @@ class RecipeList extends Component {
                 <Button
                 color ="dark"
                 style={{marginBottom:'2rem'}}
+                onClick={() => {
+                    
+                }}
                 >Add Recipe
                 </Button>
             </Container>
