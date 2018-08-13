@@ -25,7 +25,7 @@ class AppNavbar extends Component {
         <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
                <Container>
-                   <NavbarBrand href="/"></NavbarBrand>
+                   <NavbarBrand href="/">Recipessss</NavbarBrand>
                </Container>
             </Navbar>
         </div>
