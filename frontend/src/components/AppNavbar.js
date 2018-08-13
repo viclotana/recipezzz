@@ -11,7 +11,9 @@ import {
 } from 'reactstrap';
 
 class AppNavbar extends Component {
-
+  constructor(props){
+      super()
+  }
 }
 
 export default AppNavbar;
