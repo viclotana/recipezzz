@@ -21,7 +21,10 @@ class AppNavbar extends Component {
       });
     }
 
-    render(){}
+    render(){
+        <div>
+        </div>
+    }
 }
 
 
