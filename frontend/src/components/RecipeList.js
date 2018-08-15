@@ -16,6 +16,10 @@ class RecipeList extends Component {
     componentDidMount(){
         this.props.getItems();
     }
+
+    onDeleteClick = (id) => {
+        this.props.deleteItem(id);
+    }
     render (){
         const { items } = this.props.item;
         return (
