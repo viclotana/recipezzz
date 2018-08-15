@@ -4,4 +4,10 @@ export const getItems = () => {
     return {
         type: GET_ITEMS
     };
-}
+};
+
+export const deleteItem = () => {
+    return {
+        type: DELETE_ITEM
+    };
+};
