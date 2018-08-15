@@ -6,7 +6,6 @@ import {
     ModalBody,
     Form,
     FormGroup, 
-    Label
-    ListGroupItem,
-    Button
+    Label,
+    Input
 } from 'reactstrap';
