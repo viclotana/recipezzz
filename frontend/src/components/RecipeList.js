@@ -57,4 +57,4 @@ class RecipeList extends Component {
     }
 }
 
-export default connect()(RecipeList);
+export default connect(mapStateToProps, { getItems })(RecipeList);
