@@ -10,3 +10,4 @@ import {
     Input
 } from 'reactstrap';
 import { connect } from 'react-redux';
+import { addItem } from '../actions/itemActions';
