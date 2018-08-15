@@ -30,7 +30,7 @@ class RecipeList extends Component {
                          className="remove-btn"
                           color="danger"
                           size="sm"
-                          onClick={}
+                          onClick={this.onDeleteClick.bind(this, id)}
                            >&times; </Button>
                         {name}</ListGroupItem>
                       </CSSTransition>
