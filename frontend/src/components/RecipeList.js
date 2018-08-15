@@ -12,8 +12,7 @@ import uuid from 'uuid';
 class RecipeList extends Component {
     state = {
         items: [
-            { id:uuid(), name:'Abacha', style: 'boil and eat'},
-            { id:uuid(), name:'Ohat'}
+            { id:uuid(), name:'Abacha', style: 'boil and eat'}
         ]
     }
 
