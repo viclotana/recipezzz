@@ -57,6 +57,10 @@ class RecipeList extends Component {
         );
     }
 }
+RecipeList.PropTypes = {
+    getItems: PropTypes.func.isRequired,
+    item: PropTypes.object.isRequired
+}
 
 const mapStateToProps = (state) => ({
     item: state.item
