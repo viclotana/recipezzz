@@ -8,6 +8,7 @@ import {
 import { CSSTransition, TransitionGroup } 
 from 'react-transition-group';
 import uuid from 'uuid';
+import { connect } from 'react-redux';
 
 class RecipeList extends Component {
 
