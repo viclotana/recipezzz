@@ -59,5 +59,5 @@ class RecipeList extends Component {
 
 mapStateToProps = (state) => ({
     item: state.item
-})
+});
 export default connect(mapStateToProps, { getItems })(RecipeList);
