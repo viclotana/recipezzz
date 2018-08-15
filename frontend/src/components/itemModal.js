@@ -16,4 +16,4 @@ class ItemModal extends Component {
 
 }
 
-export d
+export default
