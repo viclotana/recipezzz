@@ -18,7 +18,7 @@ class RecipeList extends Component {
         this.props.getItems();
     }
     render (){
-        const { items } = this.state;
+        const { items } = this.props;
         return (
             <Container>
                 <Button
