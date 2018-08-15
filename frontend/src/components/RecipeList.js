@@ -67,4 +67,5 @@ RecipeList.PropTypes = {
 const mapStateToProps = (state) => ({
     item: state.item
 });
-export default connect(mapStateToProps, { getItems })(RecipeList);
+export default connect(mapStateToProps, { getItems, deleteItem }
+)(RecipeList);
