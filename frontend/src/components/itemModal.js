@@ -12,4 +12,4 @@ import {
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 
-class ItemModal extends Component
+class ItemModal extends Component {}
