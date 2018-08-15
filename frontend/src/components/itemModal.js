@@ -16,4 +16,4 @@ class ItemModal extends Component {
 
 }
 
-export default
+export default connect()()
