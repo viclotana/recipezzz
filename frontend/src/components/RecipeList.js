@@ -10,9 +10,6 @@ from 'react-transition-group';
 import uuid from 'uuid';
 
 class RecipeList extends Component {
-    state = {
-        items:
-    }
 
     render (){
         const { items } = this.state;
