@@ -20,20 +20,6 @@ class RecipeList extends Component {
         const { items } = this.props.item;
         return (
             <Container>
-                <Button
-                color ="dark"
-                style={{marginBottom:'2rem'}}
-                onClick={() => {
-                    const name =prompt('enter item');
-                    const style = prompt('enter style');
-                    if (name&&style) {
-                        this.setState(state => ({
-                            items:[...state.items, {id:uuid(), name,style}]
-                        }));
-                    }
-                }}
-                >Add Recipe
-                </Button>
                 <ListGroup>
                   <TransitionGroup className="recipe-list">
                   {items.map(({ id, name, style }) =>(
@@ -64,4 +50,4 @@ const mapStateToProps = (state) => ({
     item: state.item
 });
 export default connect(mapStateToProps, { getItems, deleteItem }
-)(RecipeList);
+)(RecipeList); 
