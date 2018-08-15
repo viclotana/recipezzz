@@ -44,11 +44,7 @@ class RecipeList extends Component {
                          className="remove-btn"
                           color="danger"
                           size="sm"
-                          onClick={() => {
-                              this.setState(state =>({
-                                  items:state.items.filter(item => item.id != id)
-                              }));
-                          }}
+                          onClick={}
                            >&times; </Button>
                         {name}</ListGroupItem>
                       </CSSTransition>
