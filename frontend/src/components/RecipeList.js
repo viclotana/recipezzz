@@ -11,8 +11,7 @@ import uuid from 'uuid';
 
 class RecipeList extends Component {
     state = {
-        items: [
-        ]
+        items:
     }
 
     render (){
