@@ -17,7 +17,7 @@ mongoose.connect(db)
 .catch(err => console.log(err));
 
 // use routes
-app.use('/api/items',items);
+app.use('./routes/api/items.js',items);
 const port = process.env.PORT || 5000;
 
 app.listen(port, ()=> console.log(`Server started 
