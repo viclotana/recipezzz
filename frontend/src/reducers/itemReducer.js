@@ -32,12 +32,12 @@ export default (state = initialState, action) => {
     switch (action.type) {
         case GET_ITEMS:
             return {
-                ...state
+              ...state
             };
         case DELETE_ITEM:
             return {
-                ...state,
-                items: state.items.filter(item => item.id !== action.payload)
+              ...state,
+              items: state.items.filter(item => item.id !== action.payload)
             }
         default:
             return state;
