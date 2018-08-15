@@ -9,3 +9,13 @@ const initialState = {
         { id:uuid(), name:'Rice and Stew', style: 'buy and eat'}
     ]
 }
+export default (state = initialState, action) => {
+  switch(action.type){
+      case GET_ITEMS:
+      return {
+          ...state
+      }
+      default: 
+      return state;
+  }
+}
