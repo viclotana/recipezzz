@@ -9,3 +9,4 @@ import {
     Label,
     Input
 } from 'reactstrap';
+import { connect } from 'react-redux';
