@@ -13,8 +13,7 @@ class RecipeList extends Component {
     state = {
         items: [
             { id:uuid(), name:'Abacha', style: 'boil and eat'},
-            { id:uuid(), name:'Oha Soup', style: 'buy but dont boil and eat'},
-            { id:uuid(), name:'Bread and Tea', style: 'eat'}
+            { id:uuid(), name:'Oha Soup', style: 'buy but dont boil and eat'}
         ]
     }
 
