@@ -15,7 +15,7 @@ import PropTypes from 'prop-types';
 class RecipeList extends Component {
 
     componentDidMount(){
-        
+        this.props.getItems();
     }
     render (){
         const { items } = this.state;
