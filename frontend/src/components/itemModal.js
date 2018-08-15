@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import {
-    Container,
-    ListGroup,
+    Button,
+    Modal,
+    ModalHeader,
+    ModalBody,
     ListGroupItem,
     Button
 } from 'reactstrap';
