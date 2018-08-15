@@ -8,7 +8,7 @@ import {
 import { CSSTransition, TransitionGroup } 
 from 'react-transition-group';
 import { connect } from 'react-redux';
-import { getItems } from '../actions/itemActions';
+import { getItems, deleteItem } from '../actions/itemActions';
 import PropTypes from 'prop-types';
 
 class RecipeList extends Component {
